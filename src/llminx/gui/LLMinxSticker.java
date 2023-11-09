@@ -17,12 +17,12 @@ public abstract class LLMinxSticker extends Polygon {
   private LLMinxCubie fCubie;
   private byte fOrientation;
   private final static Color[] COLORS = new Color[]{
-    new Color(225, 225, 0),
-    new Color(200, 0, 0),
-    new Color(225, 100, 0),
-    new Color(0, 200, 0),
-    new Color(255, 150, 150),
-    new Color(0, 0, 150),
+    new Color(128,128,128),
+    new Color(255, 102, 178),
+    new Color(102, 255, 102),
+    new Color(255, 128, 0),
+    new Color(55, 153, 255),
+    new Color(255, 255, 204),
   };
   protected final static Color IGNORE_COLOR = new Color(128, 128, 128);
   protected final static Color fColor = Color.BLACK;
